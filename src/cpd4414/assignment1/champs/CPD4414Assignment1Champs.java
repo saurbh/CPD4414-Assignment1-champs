@@ -18,4 +18,8 @@ public class CPD4414Assignment1Champs {
         // TODO code application logic here
     }
     
+    public static String stringPower(String str, int a){
+        return str;
+    }
+    
 }
