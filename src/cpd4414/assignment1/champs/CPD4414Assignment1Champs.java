@@ -25,6 +25,9 @@ public class CPD4414Assignment1Champs {
         if(a==2){
             return "bobbob";
         }
+        else if( str == ""){
+        return "";
+    }
         else
            return str;
     }

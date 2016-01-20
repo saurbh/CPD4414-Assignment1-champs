@@ -67,5 +67,14 @@ public class CPD4414Assignment1ChampsTest {
         String result = CPD4414Assignment1Champs.stringPower(str, a);
         assertEquals(expResult, result);
     }
+    @Test
+    public void testEmptyStringShouldReturnEmptyString (){
+        System.out.println("testEmptyStringShouldReturnEmptyString");
+        String str="bobob";
+        int a=2;
+        String expResult="bobbob";
+        String result = CPD4414Assignment1Champs.stringPower(str, a);
+        assertEquals(expResult, result);
+    }
     
 }
