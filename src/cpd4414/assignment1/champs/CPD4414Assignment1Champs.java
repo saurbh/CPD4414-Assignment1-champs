@@ -15,7 +15,10 @@ public class CPD4414Assignment1Champs {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        String st=new String();
+        st=stringPower("",5);
+        System.out.println("The value of st is "+st);
     }
     
     public static String stringPower(String str, int a){
