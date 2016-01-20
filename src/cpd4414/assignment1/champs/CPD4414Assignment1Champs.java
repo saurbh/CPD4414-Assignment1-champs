@@ -21,15 +21,28 @@ public class CPD4414Assignment1Champs {
         System.out.println("The value of st is "+st);
     }
     
-    public static String stringPower(String str, int a){
-        if(a==2){
-            return "bobbob";
-        }
-        else if( str == ""){
-        return "";
-    }
-        else
-           return str;
-    }
+//    public static String stringPower(String str, int a){
+//        if(a==2){
+//            return "bobbob";
+//        }
+//        else if( str == ""){
+//        return "";
+//    }
+//        else
+//           return str;
+//    }
     
+    public static String stringPower(String str, int a){
+        
+        
+        String result="";
+        
+        if(a<1)
+            return null;
+        else 
+            for (int i=0; i<a ;i++)
+                result+=str;
+        
+        return result;
+    }
 }
