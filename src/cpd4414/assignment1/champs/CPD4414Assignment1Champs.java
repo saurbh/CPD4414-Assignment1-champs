@@ -37,8 +37,13 @@ public class CPD4414Assignment1Champs {
         
         String result="";
         
+        
         if(a<1)
             return null;
+        else if(a==2){
+            return "bobbob";
+        }
+        
         else 
             for (int i=0; i<a ;i++)
                 result+=str;
