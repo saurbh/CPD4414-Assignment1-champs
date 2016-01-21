@@ -40,9 +40,12 @@ public class CPD4414Assignment1Champs {
         
         if(a<1)
             return null;
-        else if(a==2){
+        else if(a>0){
             
-            return "bobbob";
+            for (int i=1;i<a;i++){
+                str=str.concat(str);
+            }
+            return str;
         }       
         else 
             for (int i=0; i<a ;i++)
